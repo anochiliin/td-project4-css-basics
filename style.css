@@ -9,7 +9,9 @@
 } 
 
 
-h1{ margin: 40px 0px 0px 40px;}
+h1{ margin: 50px 0px -20px 40px; padding-top: 10px;}
+
+.about{ justify-content: space-between; flex-wrap: wrap; padding-left: 500px; display: flex; padding-top: 10px; padding-bottom: 20px;}
 
 
 section{ display: flex; 
@@ -18,13 +20,18 @@ section{ display: flex;
 
 /* .first{ margin-left: 800px; margin-top: 30px; margin-bottom: 30px; padding-bottom: 50px;} */
 
-.jpeg1{ width: 80px;
-    box-sizing: border-box;
+.jpeg1{ width: 90px;
+    box-sizing: border-box; height: 90px ;
     margin-top: 40px; margin-left: 50%;
+    border-radius: 100%;
 
 }
 
-.jpeg2{ width: 20px;}
+.jpeg2{ width: 30px;}
+
+
+
+
 
 h2{
     color: #1e8da6;
