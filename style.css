@@ -1,0 +1,113 @@
+*{ font-family: Arial, Helvetica, sans-serif;}
+
+/* @media screen and (max-width: 1280px)
+@media screen all and (orientation: portrait) */
+    
+.first-cluster{background: #1e8da6;
+    width: 100%;
+    border-style: hidden; color: white;
+} 
+
+
+h1{ margin: 40px 0px 0px 40px;}
+
+
+section{ display: flex; 
+         justify-content:flex-end;
+         }
+
+/* .first{ margin-left: 800px; margin-top: 30px; margin-bottom: 30px; padding-bottom: 50px;} */
+
+.jpeg1{ width: 80px;
+    box-sizing: border-box;
+    margin-top: 40px; margin-left: 50%;
+
+}
+
+.jpeg2{ width: 20px;}
+
+h2{
+    color: #1e8da6;
+    margin-left: 45%;
+}
+
+h3{ margin-left: 35px;}
+
+.second-cluster{width: 100%;}
+.second-cluster :nth-child(3) { margin-left: 35%;}
+.second-cluster :nth-child(4) { margin-left: 47%;}
+
+.third-cluster{ background-color: #1e8da6;
+                color: white;
+                 width: 100%;}
+
+#head { display: flex; 
+         justify-content: space-between; 
+        margin: 40px;}
+
+#description{ display: flex; 
+               justify-content: space-between; 
+               margin: 40px;}
+
+
+#description p{ width: 50%; margin-left: 30px;}
+
+h4{ padding-bottom: 0px;}
+
+#services{ color: #1e8da6;
+           margin-left: 60px;}
+
+#one{   background: rgb(57, 76, 56); 
+        width: 300px; 
+        border: none; 
+        color: white; ; 
+        border-radius: 10px; 
+        height: 200px;
+        text-align: center}
+
+#two{   background: rgb(57, 76, 56); 
+        width: 300px; 
+        border: none; 
+        color: white; ; 
+        border-radius: 10px; 
+        height: 200px;
+        text-align: center}
+
+#three{ background: rgb(57, 76, 56); 
+        width: 300px; 
+        border: none; 
+        color: white; ; 
+        border-radius: 10px; 
+        height: 200px;
+        text-align: center;}
+
+    /* .fourth-cluster
+    {background: rgb(57, 76, 56); 
+        width: 300px; 
+        border: none; 
+        color: white; ; 
+        border-radius: 10px; 
+        height: 200px;} */
+
+.fourth-cluster { display: flex; justify-content: space-around;}
+
+.multiple{ background-color: white;
+           height: auto;
+           margin-bottom: 70px;
+           margin-top: 70px;}
+
+.last-div{
+
+    background-color: #1e8da6; 
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+a{color: white;
+text-decoration: solid ;}
+
+.logos{ width: 80px; box-sizing: content-box; display: flex;}
